@@ -8,7 +8,7 @@ export default function SearchSection({ onChangeCity }) {
   };
 
   return (
-    <div className="weather-card" style={{ display: "flex" }}>
+    <div style={{ display: "flex" }}>
       <input
         type="text"
         placeholder="Enter city name"

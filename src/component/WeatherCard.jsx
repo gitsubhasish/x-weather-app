@@ -3,6 +3,7 @@ import React from "react";
 export default function WeatherCard({ type, info }) {
   return (
     <div
+      className="weather-card"
       style={{
         display: "flex",
         flexDirection: "column",
