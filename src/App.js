@@ -24,7 +24,7 @@ function App() {
         axios
           .get(`https://api.weatherapi.com/v1/current.json`, {
             params: {
-              key: "cf6cae627141447e9e6113102230410",
+              key: "8fb58d6eede34c568bc131008242909",
               q: city,
             },
           })
