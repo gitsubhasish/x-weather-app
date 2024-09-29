@@ -45,7 +45,7 @@ function App() {
       <div style={{ marginTop: 10 }}>
         {loading && <p>Loading data...</p>}
         {!loading && weatherData && (
-          <div style={{ display: "flex" }}>
+          <div className="weather-cards" style={{ display: "flex" }}>
             <WeatherCard
               type="Temperature"
               info={`${weatherData.current.temp_c}°C`}
